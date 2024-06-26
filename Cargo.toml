@@ -5,7 +5,7 @@ edition = "2021"
 
 [dependencies]
 actix-web = "4.8.0"
-hash = "0.3.0"
 redis = "0.25.4"
 serde = { version = "1.0.203", features = ["derive"] }
 serde_json = "1.0.118"
+uuid = { version = "1.9.1", features = ["v4"] }
